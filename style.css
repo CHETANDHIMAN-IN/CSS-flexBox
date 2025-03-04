@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+body{
+    height: 100vh;
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+}
+.flexContainer .header, .footer{
+    padding: 20px;
+}
+.header{
+    flex-grow: 1;
+    background-color: rgb(154, 205, 50);
+}
+.main{
+    flex-grow: 4;
+}
+.main{
+    display: flex;
+}
+.main > div{
+    padding: 20px;
+}
+.artical{
+    flex-grow: 4;
+}
+.aside{
+    background-color: rgb(245, 245, 220);
+    flex-grow: 1;
+}
+.nav{
+    background-color: rgb(215, 232, 212);
+    flex-grow: 1;
+}
+.footer{
+    flex-grow: 1;
+    background-color: rgb(154, 205, 50);
+}
