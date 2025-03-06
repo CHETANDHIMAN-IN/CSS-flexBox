@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  
+}
+.mainContainer{
+    margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mainContainer > div{
+    gap: 5px;
+    display: flex;
+    flex-grow: 1;
+}
+.mainContainer > div div{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: rgb(47, 79, 79);
+    color: white;
+}
+.one1,
+.thirteen1{
+    flex-grow: 1;
+}
+.two1{
+    flex-grow: 1;
+}
+.two2{
+    flex-grow: 11;
+}
+.three1{
+    flex-grow: 2;
+}
+.three2{
+    flex-grow: 10;
+}
+.four1{
+    flex-grow: 3;
+}
+.four2{
+    flex-grow: 9;
+}
+.five1{
+    flex-grow: 4;
+}
+.five2{
+    flex-grow: 8;
+}
+.six1{
+    flex-grow: 5;
+}
+.six2{
+    flex-grow: 7;
+}
+.seven1{
+    flex-grow: 1;
+}
+.seven2{
+    flex-grow: 1;
+}
+.eight1{
+    flex-grow: 7;
+}
+.eight2{
+    flex-grow: 5;
+}
+.nine1{
+    flex-grow: 8;
+}
+.nine2{
+    flex-grow: 4;
+}
+.ten1{
+    flex-grow: 9;
+}
+.ten2{
+    flex-grow: 3;
+}
+.eleven1{
+    flex-grow: 10;
+}
+.eleven2{
+    flex-grow: 2;
+}
+.twelve1{
+    flex-grow: 11;
+}
+.twelve2{
+    flex-grow: 1;
+}
