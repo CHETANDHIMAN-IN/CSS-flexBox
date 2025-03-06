@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainContainer{
+    text-align: center;
+    margin: 10px;
+    flex-grow: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mainContainer > div{
+    display: flex;
+    flex-grow: 1;
+    gap: 5px;
+}
+.mainContainer > div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    flex-grow: 1;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
